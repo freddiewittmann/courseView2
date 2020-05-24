@@ -103,13 +103,15 @@
 	<div class = "container"> <!--puts padding around contained elements-->
 				<div class = "row">
 					<div class = "col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-						<h1><span id = "titleElement">C</span><span class = "rest">ourse </span><span id = "titleElement">V</span><span class = "rest">iew</span></h1>
-						<br>
-						<b>Find out more about your courses!</b>
+						<a href = "<?php echo route('pages.home');?>">
+							<h1><span id = "titleElement">C</span><span class = "rest">ourse </span><span id = "titleElement">V</span><span class = "rest">iew</span></h1>
+						</a>
+							<br>
+							<b>Find out more about your courses!</b>
 					</div>
 				</div>
 				<div class = "text-center aboutUs">
-	   				<a href = "<?php echo route('pages.about'); ?>">About</a>
+	   				<a type = "button" class="btn btn-warning" href = "<?php echo route('pages.about');?>">About</a>
 				</div>
 		<div class = "wrap">
 			<br>
